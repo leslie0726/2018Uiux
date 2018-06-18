@@ -65,7 +65,65 @@ body{
   .navMenu{
       background-color: #A50082;
   }
+
   
   #carouselExampleControls {
-    box-shadow:0px 5px 0px 5px rgba(0, 0, 0, 0.1);
+    box-shadow:0px 0px 0px 5px rgba(0, 0, 0, 0.1);
   }
+
+  .nav-link, .nav-link:hover , .nav-link:active {
+    color: #000000
+  }
+  .ulLink li{
+      list-style: none;
+  }
+  .ulLink li a{
+    color: #000000;
+  }
+  .ulLink li a:hover,.ulLink li a:active{
+    color: #A50082;
+  }
+.baseDiv{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+.nav-item .nav-link{
+    color: #ffffff;
+}
+#newsLink{
+    color:blue;
+}
+.footer{
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    background-color: #333;
+    color: #ffffff;
+}
+.footerBottom{
+    
+    height: 50px;
+    background-color: #67057C;
+}
+#footerDiv{
+    margin-right: 0px;
+    margin-left: 0px; 
+    /* text-align: center; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+.footerDiv div ul li{
+    list-style: none;
+}
+.activityLi a ,.activityLi a:hover,.activityLi a:active{
+    color:#000000;
+
+}
+.activityLi{
+    list-style: none;
+}
+.activityDate{
+    color:#666
+}
