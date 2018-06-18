@@ -127,3 +127,16 @@ body{
 .activityDate{
     color:#666
 }
+
+.tdLink a{
+    color:#000000;
+}
+.tdLink a:hover,.tdLink a:active{
+    color: #A50082;
+}
+
+.newsSpan{
+    color: #666666;
+    float: right;
+    margin-right: 10px;
+}
